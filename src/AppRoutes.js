@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Assets from "./Assets";
 import Inventory from "./Inventory";
-import Settings from "./Settings";
+import Assignments from "./Assignments"; // Will rename file next
 
 function AppRoutes() {
   return (
@@ -10,7 +10,7 @@ function AppRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/assets" element={<Assets />} />
       <Route path="/inventory" element={<Inventory />} />
-      <Route path="/settings" element={<Settings />} />
+      <Route path="/assignments" element={<Assignments />} />
     </Routes>
   );
 }
